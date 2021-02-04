@@ -1,0 +1,46 @@
+@media screen and (max-width: 420px) {
+/* PRIMA SEZIONE DI PAGINA, ELEMENTI SENZA FLOAT */
+  * {
+    margin: 1%;
+    padding: 0;
+  }
+
+  .row {
+    margin-top: 0;
+    width: 100%;
+  }
+  /*  */
+  #lezioni .row>.left, #lezioni .row>.right  {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  /* .left, .right{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float:none;
+    display: block;
+  } */
+  #lezioni .left img, #lezioni .right img {
+    width: 40%;
+    height: auto;
+  }
+  /* SECONDA SEZIONE DI PAGINA, ELEMENTI SENZA FLOAT */
+  #steps .row>.left,#steps .row>.central, #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #steps img {
+    width: 40%;
+    height: auto;
+  }
+  /* TERZA SEZIONE DI PAGINA, ELEMENTI SENZA FLOAT */
+  #why img {
+    width: 40%;
+    height: auto;
+  }
+}
